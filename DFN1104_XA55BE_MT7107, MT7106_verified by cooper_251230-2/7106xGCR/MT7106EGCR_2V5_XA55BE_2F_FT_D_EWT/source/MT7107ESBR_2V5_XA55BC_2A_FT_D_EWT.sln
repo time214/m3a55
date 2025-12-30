@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual C++ Express 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MT7107ESBR_2V5_XA55BC_2A_FT_D_EWT", "MT7107ESBR_2V5_XA55BC_2A_FT_D_EWT.vcproj", "{F24E45FA-C2A9-4FCA-8F75-AE77861A348C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F24E45FA-C2A9-4FCA-8F75-AE77861A348C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F24E45FA-C2A9-4FCA-8F75-AE77861A348C}.Debug|Win32.Build.0 = Debug|Win32
+		{F24E45FA-C2A9-4FCA-8F75-AE77861A348C}.Release|Win32.ActiveCfg = Release|Win32
+		{F24E45FA-C2A9-4FCA-8F75-AE77861A348C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
