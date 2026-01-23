@@ -6,6 +6,7 @@
 BYTE sitestatus[sitedut];
 
 int i=0,j=0,t=0;
+double siteflag = SITENUM - 0.5f;
 double k=0.0f,v=0.0f,vx=0.0f,checkadd=0.0f,check[4]={0.0f};
 double adresult[100]={0},result[2]={0};
 double v11[2]={0},v22[2]={0},v33[2]={0},v44[2]={0},v1[2]={0},v2[2]={0},v3[2]={0},v4[2]={0};
@@ -475,7 +476,7 @@ DUT_API int Ven(short funcindex, LPCTSTR funclabel)
 			checkadd=checkadd+check[i];
 		}
 		//vmax=k;
-		if(checkadd>3.5f)
+		if(checkadd>siteflag)
 		break;
 	}
 	for(i=0; i<SITENUM; i++ )  
@@ -523,7 +524,7 @@ DUT_API int Ven(short funcindex, LPCTSTR funclabel)
 			checkadd=checkadd+check[i];
 		}
 		//vmin=k;
-		if(checkadd>3.5f)
+		if(checkadd>siteflag)
 		break;
 	}
 	for(i=0; i<SITENUM; i++ )  
@@ -591,7 +592,7 @@ DUT_API int UVLO(short funcindex, LPCTSTR funclabel)
 			checkadd=checkadd+check[i];
 		}
 		//vmax=k;
-		if(checkadd>3.5f)
+		if(checkadd>siteflag)
 		break;
 	}
 	for(i=0; i<SITENUM; i++ )  
@@ -641,7 +642,7 @@ DUT_API int UVLO(short funcindex, LPCTSTR funclabel)
 			checkadd=checkadd+check[i];
 		}
 		//vmin=k;
-		if(checkadd>3.5f)
+		if(checkadd>siteflag)
 		break;
 	}
 
@@ -707,7 +708,7 @@ DUT_API int OVP(short funcindex, LPCTSTR funclabel)
 			checkadd=checkadd+check[i];
 		}
 		//vmax=k;
-		if(checkadd>3.5f)
+		if(checkadd>siteflag)
 		break;
 	}
 	for(i=0; i<SITENUM; i++ )  
@@ -756,7 +757,7 @@ DUT_API int OVP(short funcindex, LPCTSTR funclabel)
 			checkadd=checkadd+check[i];
 		}
 		//vmin=k;
-		if(checkadd>3.5f)
+		if(checkadd>siteflag)
 		break;
 	}
 
