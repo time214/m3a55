@@ -1,0 +1,8 @@
+2026/1/30
+vout1: offset = 0
+vout2: offset = -4mV
+vout3:offset = 0
+vout4:offset = 0
+
+LINE=vout1-vout3
+Load=vout1-vout2

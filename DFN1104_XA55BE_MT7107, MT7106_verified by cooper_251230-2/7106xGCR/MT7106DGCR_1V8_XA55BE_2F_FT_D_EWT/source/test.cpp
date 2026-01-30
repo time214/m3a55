@@ -369,7 +369,7 @@ DUT_API int Vout(short funcindex, LPCTSTR funclabel)
 	for (i=0;i<SITENUM;i++)
 	{
 		v1[i]=vout.GetMeasResult(i);
-		v1[i]+=float(-0.015);	// 251230-2
+	//	v1[i]+=float(-0.015);	// 251230-2
 		Vout1->SetTestResult(i, 0, v1[i]);
 	}	
 	/////////////////////////// 150mA /////////////////////////

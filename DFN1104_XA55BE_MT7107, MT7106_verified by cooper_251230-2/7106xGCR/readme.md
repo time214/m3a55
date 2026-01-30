@@ -1,8 +1,0 @@
-MT7106CGCR_1V5_XA55BE_2F_FT_D_EWT
->> vout1 do offset -10mv
-MT7106DGCR_1V8_XA55BE_2F_FT_D_EWT
->> vout1 do offset -15mv
-MT7106EGCR_2V5_XA55BE_2F_FT_D_EWT
->> ICL UVLO exchange position
-
-

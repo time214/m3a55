@@ -342,7 +342,7 @@ DUT_API int Vout(short funcindex, LPCTSTR funclabel)
 	vout.MeasureVI(MV, 100, 20);// 251028
 	for (i=0;i<SITENUM;i++)
 	{
-		v2[i]=vout.GetMeasResult(i)-0.004f;		
+		v2[i]=vout.GetMeasResult(i);	//-0.004f	20260130
 		Vout2->SetTestResult(i, 0, v2[i]);
 	}
 	vout.Set(FI, 0.0e-3, PVI10A_5V, PVI10A_1A,RELAY_ON);
